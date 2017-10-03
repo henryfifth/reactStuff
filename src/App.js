@@ -12,14 +12,18 @@ import Button from 'react-bootstrap/lib/Button';
 
 
 class App extends Component {
-
+  constructor(){
+    super();
+    this.spaceDawgz = "Space dawgz RULE!";
+  }
   render() {
-
     return (
       <div>
+        <h3>
         {this.spaceDawgz}
+        </h3>
       </div>
-    )  
+    ) ; 
   }
 }
 
